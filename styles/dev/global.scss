@@ -20,8 +20,8 @@ html, body {
   overflow: auto;
 }
 
-.content-width {
-  max-width: 134rem;
+.section-content {
+  max-width: 127rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 5rem;
@@ -29,6 +29,10 @@ html, body {
   @include mobile900 {
     padding: 0 2rem;
   }
+}
+
+.section-content-header {
+  text-align: center;
 }
 
 /* End Containers */
@@ -45,15 +49,22 @@ a {
 /* Headers */
 
 h1 {
+  font-size: 6.4rem;
+  line-height: 7rem;
+  font-weight: 700;
 }
 
 h2 {
+  margin-bottom: 1.4rem;
   font-size: 4.8rem;
   line-height: 4rem;
   font-weight: 700;
 }
 
 h3 {
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
 }
 
 /* End Headers */
@@ -68,10 +79,6 @@ p {
 }
 
 /* End Paragraph */
-
-/* List */
-
-/* End List */
 
 /* Buttons */
 

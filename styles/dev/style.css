@@ -453,6 +453,8 @@ table {
 /* End Main Colors */
 /* Paragraph */
 /* End Paragraph */
+/* Services section */
+/* End Services section */
 @font-face {
   font-family: 'TT Commons';
   src: url("../fonts/subset-TTCommons-Bold.woff2") format("woff2"), url("../fonts/subset-TTCommons-Bold.woff") format("woff");
@@ -513,14 +515,17 @@ html, body {
   height: 100%;
   overflow: auto; }
 
-.content-width {
-  max-width: 134rem;
+.section-content {
+  max-width: 127rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 5rem; }
   @media (max-width: 900px) {
-    .content-width {
+    .section-content {
       padding: 0 2rem; } }
+
+.section-content-header {
+  text-align: center; }
 
 /* End Containers */
 /* Remove outline */
@@ -530,10 +535,21 @@ a {
 
 /* End Remove outline */
 /* Headers */
+h1 {
+  font-size: 6.4rem;
+  line-height: 7rem;
+  font-weight: 700; }
+
 h2 {
+  margin-bottom: 1.4rem;
   font-size: 4.8rem;
   line-height: 4rem;
   font-weight: 700; }
+
+h3 {
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  font-weight: 600; }
 
 /* End Headers */
 /* Paragraph */
@@ -544,13 +560,15 @@ p {
   color: #777; }
 
 /* End Paragraph */
-/* List */
-/* End List */
 /* Buttons */
 /* End Buttons */
 /* Inputs */
 /* End Inputs */
 /* Sections */
+.services-section {
+  background-color: #f6f4f9;
+  padding: 11.5rem 0; }
+
 /* End Sections */
 
 /*# sourceMappingURL=style.css.map */
