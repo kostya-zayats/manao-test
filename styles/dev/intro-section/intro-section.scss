@@ -1,0 +1,25 @@
+.intro-section {
+  color: $main-text-color-white;
+  background: $intro-section-bg url("../../img/bg/intro-section-bg.svg") right center no-repeat;
+  background-size: cover;
+  padding: 20.6rem 0 4.5rem;
+
+  p {
+    line-height: 2.6rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.intro-partners {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 9.4rem;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+
+  img {
+    margin-left: 1.6rem;
+    display: block;
+  }
+}
