@@ -606,6 +606,40 @@ p {
   background-color: #f6f4f9;
   padding: 11.5rem 0; }
 
+.services-content {
+  margin-top: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem; }
+
+.services-unit {
+  max-width: 27rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2.7rem 0 2.7rem 2.9rem;
+  background-color: #fff;
+  border-radius: .9rem;
+  flex-shrink: 0; }
+
+.services-unit-ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.6rem;
+  height: 6.6rem;
+  border-radius: 50%;
+  background: linear-gradient(147deg, #3f0f72 0%, #791281 100%);
+  flex-shrink: 0; }
+
+.services-unit-desc {
+  padding: 0 5rem 0 1.7rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem; }
+
 /* End Sections */
 
 /*# sourceMappingURL=style.css.map */
